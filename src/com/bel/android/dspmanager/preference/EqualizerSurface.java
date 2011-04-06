@@ -12,7 +12,7 @@ import android.view.SurfaceView;
 public class EqualizerSurface extends SurfaceView {
 	public static int MIN_FREQ = 20;
 	public static int MAX_FREQ = 20000;
-	public static int SAMPLING_RATE = 44100;
+	public static int SAMPLING_RATE = 48000;
 	public static int MIN_DB = -6;
 	public static int MAX_DB = 6;
 	public static final float CURVE_RESOLUTION = 1.25f;
