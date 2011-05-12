@@ -184,6 +184,8 @@ public class EqualizerSurface extends SurfaceView {
 			if (y < (height/2)) {
 				y -= white.getFontMetrics().ascent;
 			}
+		
+			y = height / 2;
 			canvas.drawText(String.format("%1.1f", Math.abs(levels[i])), x, y, white);
 		}
 	}
